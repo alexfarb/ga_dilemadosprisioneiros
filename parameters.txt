@@ -1,0 +1,24 @@
+- Tamanho da Populacao
+50
+- Tamanho do Ring
+3
+- Probabilidade de Cruzamento
+0.9
+- Probabilidade de Mutacao
+0.1
+- Desvio-Padrao
+0.1
+- Tabela do Fitness Individual [DC, CC, DD, CD] // C = Coopera , D = Delata // D = 0 anos, CC = 6 meses, DD = 10 Anos, C = 30 anos
+1,0.9,0.66,0
+- Tabela do Fitness em Grupo [CC, CD or DC, DD] // C = Coopera , D = Delata // D = 0 anos, CC = 6 meses, DD = 10 Anos, C = 30 anos
+1,0.33,0
+- Numero de Geracoes
+1200
+- Valor de C
+10
+- Valor do Bonus
+0.2
+- Tamanho da Populacao opositora, em porcentagem
+30
+- Tipo de Fitness que deseja calcular. Fitness Individual = 0, Fitness Grupo = 1
+0
