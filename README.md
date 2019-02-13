@@ -12,10 +12,8 @@ A modelagem do algoritmo genético é feita da seguinte forma:
 *	Cada cromossomo possui 30 genes.
 *	Existem dois tipos de Fitness: Individual e Grupo
 Os tipos de Fitness levam em consideração o pareamento entre cooperação (C) e delação (D), normalizados de 0 a 1, e de forma proporcional ao tempo de prisão.<br/>
-Existe também uma parcela bônus do fitness, onde é levada em consideração a quantidade de cadeias de C encontradas no indivíduo de teste, essa parcela de bônus é dada pela fórmula abaixo.<br/>
-<br/>
-Bônus = (numerocadeias*valorbonus)*(1-mediagenes_c)<br/>
-<br/>
+* Existe também uma parcela bônus do fitness, onde é levada em consideração a quantidade de cadeias de C encontradas no indivíduo de teste, essa parcela de bônus é dada pela fórmula abaixo.
+  * Bônus = (numerocadeias*valorbonus)*(1-mediagenes_c)
 * Essa parcela bônus é adicionada a média encontrada na primeira parcela do fitness.
 * Quanto aos operadores do algoritmo genético, é utilizada a seleção por torneio, cruzamento aritmético, mutação gaussiana e o total de indivíduos da população é igual a 50.
 * Há 3 casos de testes para a avaliação do problema proposto: (1) quando os indivíduos são comparados par-a-par, (2) quando um indivíduo é comparado com 10% da população e (3) quando um indivíduo é comparado a 30% da população. E em cada caso desse, é necessário verificar as seguintes situações: fixa-se uma valor de C e varia-se o bônus e fixa-se o bônus e varia-se o C.
